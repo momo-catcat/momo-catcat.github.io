@@ -46,7 +46,7 @@ permalink: /
 </div>
 
 
-##### Hi, I'm Xu-Cheng He, 何旭成, an early career researcher studying atmospheric aerosols, clouds and their climatic effects. I'm currently a visiting researcher at the [University of Cambridge](https://www.ch.cam.ac.uk/group/atm/people) and I'm also associated with the [Institute for Atmospheric and Earth System Research (INAR)](https://www.helsinki.fi/en/inar) at [University of Helsinki](https://www.helsinki.fi/en), where I completed my MSc and PhD degrees with Prof. Markku Kulmala.
+##### Hi, I'm Xu-Cheng He, 何旭成, an early career researcher studying atmospheric aerosols, clouds and their climatic effects. I'm currently and Academy Research Fellow at [Institute for Atmospheric and Earth System Research (INAR)](https://www.helsinki.fi/en/inar) at [University of Helsinki](https://www.helsinki.fi/en).
 
 ##### My research combines state-of-the-art mass spectrometric methods, quantum chemical calculations and Earth system modelling to investigate and interpret atmospheric aerosol formation both from ambient observations and chamber simulations. 
 
