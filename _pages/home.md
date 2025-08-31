@@ -46,7 +46,7 @@ permalink: /
 </div>
 
 
-##### Hi, I'm Xu-Cheng He, 何旭成, an early career researcher studying atmospheric aerosols, clouds and their climatic effects. I'm currently an Academy Research Fellow at [Institute for Atmospheric and Earth System Research (INAR)](https://www.helsinki.fi/en/inar) at [University of Helsinki](https://www.helsinki.fi/en).
+##### Hi, I'm Xu-Cheng He, 何旭成, a researcher studying atmospheric aerosols, clouds and their climatic effects. I'm currently an Academy Research Fellow and group leader at [Institute for Atmospheric and Earth System Research (INAR)](https://www.helsinki.fi/en/inar) at [University of Helsinki](https://www.helsinki.fi/en). I also serve as co-PI for the CLOUD project at CERN.
 
 ##### My research combines state-of-the-art mass spectrometric methods, quantum chemical calculations and Earth system modelling to investigate and interpret atmospheric aerosol formation both from ambient observations and chamber simulations. 
 

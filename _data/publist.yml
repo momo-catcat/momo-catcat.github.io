@@ -1,3 +1,13 @@
+- title: "Evaluation of UKESM aerosol size and composition using ATom measurements indicates missing marine aerosol formation mechanisms"
+  image: UKESM11_global_pic.png 
+  description: Atmospheric aerosols influence climate through their interactions with radiation and clouds, yet large uncertainties remain in their simulation by global models. This study evaluates the United Kingdom Earth System Model version 1.1 (UKESM1.1) using global-scale aircraft observations from the. Atmospheric Tomography (ATom) mission, focusing on aerosol lifecycle processes in the remote marine atmosphere. We assess model performance in simulating aerosol precursor vapours, number size distributions, chemical composition, and environmental conditions. Several process improvements are tested, including sulfuric acid–ammonia nucleation, ammonium nitrate scheme, methanesulfonic acid condensation, and low-temperature isoprene-derived secondary organic aerosol formation. 
+  authors: __X.-C. He__, N.L. Abraham\*, H. Ding, ..., J. Weber, A.T. Archibald\*, H. Gordon 
+  link:
+    url: https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3700/ 
+    display: Atmospheric Chemistry and Physics Discussions (2025)
+  highlight: 1
+  news1:
+
 - title: "New particle formation from isoprene under upper-tropospheric conditions"
   image: Isoprene_NPF.png 
   description: Aircraft observations reveal widespread new particle formation in the tropical upper troposphere over the Amazon and oceans, linked to unknown vapors. CERN CLOUD experiments show that hydroxyl radicals reacting with isoprene at −30 °C to −50 °C can initiate particle formation, driven by isoprene-oxygenated organic molecules (IP-OOM). Small amounts of sulfuric or iodine oxoacids enhance nucleation rates significantly, with rapid growth even in the presence of NOx from lightning. These findings suggest isoprene emissions from rainforests contribute to extensive new particle formation in the tropical upper troposphere, producing tens of thousands of particles per cubic centimeter.
