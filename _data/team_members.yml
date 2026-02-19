@@ -5,10 +5,25 @@
   email: xucheng.he@helsinki.fi
   number_educ: 1
   education1: PhD at University of Helsinki, 2021.09
-- name: you
-  photo: 
-  info: you
+- name: Jiali Shen
+  photo:
+  info: University Researcher
   description: ""
-  email: you.you@helsinki.fi
+  email: jiali.shen@helsinki.fi
   number_educ: 1
-  education1: PhD at xxx, xxx
+  education1: PhD at University of Helsinki, 2023.04
+- name: Dejia Yin
+  photo:
+  info: Postdoctoral Researcher
+  description: ""
+  email: dejia.yin@helsinki.fi
+  number_educ: 1
+  education1: PhD at Tsinghua University, 2025.10
+- name: Wenjuan Yu
+  photo:
+  info: Doctoral Student
+  description: ""
+  email: wenjuan.yu@helsinki.fi
+  number_educ: 1
+  education1: MSc at University of Stockholm, 2022.06
+
