@@ -2,6 +2,31 @@
 layout: default
 ---
 <div id="team" class="col-sm-12">
-  {{ content }}
-</div>
 
+  <h2>Group Members</h2>
+
+  {% for member in site.data.team_members %}
+  <div class="row" style="margin-bottom: 30px;">
+    <div class="col-sm-3">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+           class="img-responsive" style="max-width: 220px;" />
+    </div>
+    <div class="col-sm-9" style="font-size: 1.1em;">
+      <h4>{{ member.name }}</h4>
+      <i>{{ member.info }}</i>
+      <ul style="padding-left: 1em;">
+        {% assign number_educ = member.number_educ | plus: 0 %}
+        {% for i in (1..number_educ) %}
+          {% assign key = 'education' | append: i %}
+          <li>{{ member[key] }}</li>
+        {% endfor %}
+      </ul>
+      {% if member.description and member.description != "" %}
+      <p>{{ member.description }}</p>
+      {% endif %}
+      Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>

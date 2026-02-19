@@ -1,8 +1,14 @@
-- name: Xu-Cheng He 
-  photo: Xu-Cheng.jpg 
-  info: Post-doctoral researcher, started May 2022
-  email: xucheng.he@helsinki.fi 
-  number_educ: 3 
-  education1: BSc at Yunnan University, 2015
-  education2: MSc at University of Helsinki, 2017
-  education3: PhD at University of Helsinki, 2021 
+- name: Xu-Cheng He
+  photo: Xu-ChengHE_2.jpg
+  info: Academy Research Fellow, PI
+  description: "My research focuses on atmospheric aerosol formation and its climatic impacts, integrating advanced mass spectrometry, quantum chemistry, kinetic modelling, and Earth system modelling. My current work investigates chemical processes and particle formation mechanisms in the marine atmosphere, the upper troposphere above tropical rainforests, and the interactions between continental and marine environments."
+  email: xucheng.he@helsinki.fi
+  number_educ: 1
+  education1: PhD at University of Helsinki, 2021.09
+- name: you
+  photo: 
+  info: you
+  description: ""
+  email: you.you@helsinki.fi
+  number_educ: 1
+  education1: PhD at xxx, xxx
