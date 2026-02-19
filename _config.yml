@@ -17,6 +17,12 @@ include:
   - .htaccess
   - _pages
 
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
 sass:
   sass_dir: _sass
 
