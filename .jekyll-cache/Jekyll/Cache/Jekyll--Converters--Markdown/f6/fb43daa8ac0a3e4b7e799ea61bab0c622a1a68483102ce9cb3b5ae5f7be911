@@ -1,4 +1,4 @@
-I"/<h1 id="research">Research</h1>
+I"”.<h1 id="research">Research</h1>
 <h5 id="there-are-several-ways-to-study-atmospheric-composition-field-observations-laboratory-experiments-physical-chemistry-and-models-of-different-scales-without-any-doubt-they-are-complementary-observations-tell-us-the-reality-experiments-and-theories-explain-the-mechanisms-and-models-help-to-predict-the-past-and-future-i-have-always-been-charmed-by-the-possibility-to-combine-several-of-these-methods-to-look-at-a-problem-from-different-angles--a-way-i-believe-that-will-tell-us-the-most-about-the-importance-of-an-atmospheric-phenomenon">There are several ways to study atmospheric composition: field observations, laboratory experiments, physical chemistry and models of different scales. Without any doubt, they are complementary: observations tell us the reality, experiments and theories explain the mechanisms and models help to predict the past and future. I have always been charmed by the possibility to combine several of these methods to look at a problem from different angles â€“ a way I believe that will tell us the most about the importance of an atmospheric phenomenon.</h5>
 
 <h5 id="my-past-and-current-research-has-a-central-theme-understanding-the-cloud-radiative-forcings-in-polar-and-marine-environments-with-a-special-focus-on-the-role-of-iodine-sulfur-and-oxidised-organic-species-in-atmospheric-particle-and-cloud-condensation-nuclei-formation-processes-my-research-combines-state-of-art-mass-spectrometric-methods-with-quantum-chemical-calculations-laboratory-experiments-field-observations-and-models-of-different-scales-to-help-achieve-molecular-understandings-of-these-scientific-questions">My past and current research has a central theme: understanding the cloud radiative forcings in polar and marine environments, with a special focus on the role of iodine, sulfur and oxidised organic species in atmospheric particle and cloud condensation nuclei formation processes. My research combines state-of-art mass spectrometric methods with quantum chemical calculations, laboratory experiments, field observations and models of different scales to help achieve molecular understandings of these scientific questions.</h5>
@@ -7,7 +7,7 @@
 <div class="col-sm-12 clearfix">
   <div class="well">
     <h3 id="chemical-ionisation-methodology-development">Chemical ionisation methodology development</h3>
-    <p><img src="http://localhost:4000/images/respic/BrCIMS_peaks.png" class="img-responsive" width="100%" style="float: left" /></p>
+    <p><img src="/images/respic/BrCIMS_peaks.png" class="img-responsive" width="100%" style="float: left" /></p>
 
     <h5 id="one-of-the-key-challenges-in-atmospheric-iodine-studies-is-that-there-are-few-methods-that-can-measure-iodine-species-at-atmospherically-relevant-levels-these-methods-commonly-only-measure-one-or-very-few-iodine-species-at-a-time-this-hinders-us-from-underderstanding-atmospheric-iodine-chemistry-and-particle-formation-in-detail">One of the key challenges in atmospheric iodine studies is that there are few methods that can measure iodine species at atmospherically relevant levels. These methods commonly only measure one, or very few iodine species at a time. This hinders us from underderstanding atmospheric iodine chemistry and particle formation in detail.</h5>
 
@@ -18,13 +18,13 @@
 
 <div class="col-sm-12 clearfix">
   <div class="well">
-    <h3 id="kinetic-modelling-">Kinetic modelling <img src="http://localhost:4000/images/respic/IA_clusters.png" class="img-responsive" width="100%" style="float: left" /></h3>
+    <h3 id="kinetic-modelling-">Kinetic modelling <img src="/images/respic/IA_clusters.png" class="img-responsive" width="100%" style="float: left" /></h3>
 
     <h5 id="interpretation-of-experimental-data-is-sometimes-tricky-especially-if-you-want-to-dig-out-hidden-fruits-kinetic-simulations-could-help-in-this-case---it-can-constrain-well-studied-parameters-and-bring-out-the-important-ones-it-can-also-help-to-test-different-hypotheses-and-to-predict-the-outcomes-of-various-scenarios">Interpretation of experimental data is sometimes tricky, especially if you want to dig out hidden fruits. Kinetic simulations could help in this case - it can constrain well-studied parameters and bring out the important ones. It can also help to test different hypotheses and to predict the outcomes of various scenarios.</h5>
 
     <h5 id="in-order-to-simulate-ion-induced-iodic-acid-nucleation-processes-i-developped-the-panda520-kinetic-model-which-utilises-realistic-parameterisations-from-the-cloud-chamber-the-model-has-been-shown-to-be-able-to-accurately-capture-the-ion-induced-iodic-acid-nucleation-processes-and-is-currently-being-developed-to-derive-a-parameterisation-of-these-processes">In order to simulate ion-induced iodic acid nucleation processes, I developped the <a href="https://doi.org/10.1080/02786826.2020.1839013">PANDA520</a> kinetic model which utilises realistic parameterisations from the CLOUD chamber. The model has been shown to be able to accurately capture the ion-induced iodic acid nucleation processes and is currently being developed to derive a parameterisation of these processes.</h5>
 
-    <!-- <img src="http://localhost:4000/images/respic/fig_simulation_signletube.png" class="img-responsive" width="100%" style="float: left" /> -->
+    <!-- <img src="/images/respic/fig_simulation_signletube.png" class="img-responsive" width="100%" style="float: left" /> -->
 
     <h5 id="the-calibration-of-chemical-ionisation-mass-spectrometers-sometimes-involves-simulating-photo-chemical-reactions-in-a-flow-reactor-the-best-examples-are-probably-the-calibration-of-gaseous-sulfuric-acid-and-hypoiodous-acid-together-with-jiali-shen-i-maintain-an-open-source-python-library-marforce-that-can-help-simulate-the-convection-diffusion-reaction-processes-in-a-cylindrical-flow-reactor-we-are-happy-to-receive-comments-or-suggestions-for-the-model-development">The calibration of chemical ionisation mass spectrometers sometimes involves simulating photo-chemical reactions in a flow reactor. The best examples are probably the calibration of gaseous sulfuric acid and hypoiodous acid. Together with Jiali Shen, I maintain an open-source Python library (<a href="https://github.com/momo-catcat/MARFORCE-flowtube">MARFORCE</a>) that can help simulate the convection-diffusion-reaction processes in a cylindrical flow reactor. We are happy to receive comments or suggestions for the model development.</h5>
   </div>
@@ -32,7 +32,7 @@
 
 <div class="col-sm-12 clearfix">
   <div class="well">
-    <h3 id="smog-chamber-experiments-">Smog chamber experiments <img src="http://localhost:4000/images/respic/cloud_chamber.png" class="img-responsive" width="100%" style="float: left" /></h3>
+    <h3 id="smog-chamber-experiments-">Smog chamber experiments <img src="/images/respic/cloud_chamber.png" class="img-responsive" width="100%" style="float: left" /></h3>
 
     <h5 id="laboraotry-experiment-is-the-primary-part-of-my-research-it-is-the-best-way-to-disentangle-the-complex-chemical-processes-of-the-atmosphere">Laboraotry experiment is the primary part of my research. It is the best way to disentangle the complex chemical processes of the atmosphere.</h5>
 
@@ -43,7 +43,7 @@
 
 <div class="col-sm-12 clearfix">
   <div class="well">
-    <h3 id="quantum-chemical-simulations-">Quantum chemical simulations <img src="http://localhost:4000/images/respic/HIO3HIO2_QC_schematic.jpeg" class="img-responsive" width="100%" style="float: left" /></h3>
+    <h3 id="quantum-chemical-simulations-">Quantum chemical simulations <img src="/images/respic/HIO3HIO2_QC_schematic.jpeg" class="img-responsive" width="100%" style="float: left" /></h3>
 
     <h5 id="theoretical-methods-are-important-complementary-to-experimental-activities-and-occasionally-they-can-be-used-to-guide-the-experimental-works-they-can-provide-the-details-of-chemical-reactions-and-particle-formation-processes-and-they-are-the-key-components-of-my-past-research">Theoretical methods are important complementary to experimental activities and occasionally they can be used to guide the experimental works. They can provide the details of chemical reactions and particle formation processes and they are the key components of my past research.</h5>
 
@@ -54,7 +54,7 @@
 <div class="col-sm-12 clearfix">
   <div class="well">
     <h3 id="field-observations">Field observations</h3>
-    <p><img src="http://localhost:4000/images/respic/HOI_measurements.png" class="img-responsive" width="100%" style="float: left" /></p>
+    <p><img src="/images/respic/HOI_measurements.png" class="img-responsive" width="100%" style="float: left" /></p>
 
     <h5 id="the-goal-of-atmosheric-research-is-to-understand-the-processes-in-the-atmosphere-and-try-to-predict-the-future-undoubtely-directly-observing-the-atmosphere-is-the-best-way-to-know-what-are-there-and-what-they-are-doing-it-gives-the-inspiration-of-what-experiments-and-simulations-we-should-do-to-understand-it">The goal of atmosheric research is to understand the processes in the atmosphere and try to predict the future. Undoubtely, directly observing the atmosphere is the best way to know what are there and what they are doing. It gives the inspiration of what experiments and simulations we should do to understand it.</h5>
 
