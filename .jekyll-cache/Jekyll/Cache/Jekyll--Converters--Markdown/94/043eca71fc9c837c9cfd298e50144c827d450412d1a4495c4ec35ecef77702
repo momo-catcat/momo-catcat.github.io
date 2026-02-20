@@ -1,4 +1,4 @@
-I"2�<h1 id="publications">Publications</h1>
+I"!�<h1 id="publications">Publications</h1>
 
 <h2 id="highlights">Highlights</h2>
 
@@ -9,7 +9,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Evaluation of UKESM aerosol size and composition using ATom measurements indicates missing marine aerosol formation mechanisms</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/UKESM11_global_pic.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/UKESM11_global_pic.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Atmospheric aerosols influence climate through their interactions with radiation and clouds, yet large uncertainties remain in their simulation by global models. This study evaluates the United Kingdom Earth System Model version 1.1 (UKESM1.1) using global-scale aircraft observations from the. Atmospheric Tomography (ATom) mission, focusing on aerosol lifecycle processes in the remote marine atmosphere. We assess model performance in simulating aerosol precursor vapours, number size distributions, chemical composition, and environmental conditions. Several process improvements are tested, including sulfuric acid–ammonia nucleation, ammonium nitrate scheme, methanesulfonic acid condensation, and low-temperature isoprene-derived secondary organic aerosol formation.</p>
       <p><em><strong>X.-C. He</strong>, N.L. Abraham*, H. Ding, …, J. Weber, A.T. Archibald*, H. Gordon</em></p>
       <p><strong><a href="https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3700/">Atmospheric Chemistry and Physics Discussions (2025)</a></strong></p>
@@ -21,7 +21,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>New particle formation from isoprene under upper-tropospheric conditions</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/Isoprene_NPF.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/Isoprene_NPF.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Aircraft observations reveal widespread new particle formation in the tropical upper troposphere over the Amazon and oceans, linked to unknown vapors. CERN CLOUD experiments show that hydroxyl radicals reacting with isoprene at −30 °C to −50 °C can initiate particle formation, driven by isoprene-oxygenated organic molecules (IP-OOM). Small amounts of sulfuric or iodine oxoacids enhance nucleation rates significantly, with rapid growth even in the presence of NOx from lightning. These findings suggest isoprene emissions from rainforests contribute to extensive new particle formation in the tropical upper troposphere, producing tens of thousands of particles per cubic centimeter.</p>
       <p><em>J. Shen<sup>+</sup>, D.M. Russel<sup>+</sup>, J. DeVivo, …, J. Kirkby*, J. Curtius*, <strong>X.-C. He</strong>*</em></p>
       <p><strong><a href="https://www.nature.com/articles/s41586-024-08196-0">Nature (2024)</a></strong></p>
@@ -37,7 +37,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Iodine oxoacids and their roles in sub-3 nm particle growth in polluted urban environments</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/Beijing_observation.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/Beijing_observation.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>New particle formation (NPF) significantly impacts ultrafine particle (UFP) concentrations, human health, and climate. While iodine oxoacids (HIOx) dominate NPF in pristine regions, their role in polluted urban areas is less understood. Long-term measurements in Beijing and Nanjing reveal that HIO3 enhances the survival probability of sub-3 nm particles by ~40% (median) and over 100% in some NPF events, making HIOx a key contributor to UFPs in polluted environments. Since HIO3 and H2SO4 contribute similarly to particle growth, their combined concentrations can estimate sub-3 nm particle growth from inorganic acids in urban atmospheres with significant HIOx presence.</p>
       <p><em>Y. Zhang<sup>+</sup>, Duzitian Li<sup>+</sup>, <strong>X.-C. He</strong>*, W. Nie*, …, J. Jiang, A. Ding, M. Kulmala</em></p>
       <p><strong><a href="https://acp.copernicus.org/articles/24/1873/2024/">Atmospheric Chemistry and Physics (2024)</a></strong></p>
@@ -49,7 +49,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Temperature, humidity, and ionisation effect of iodine oxoacid nucleation</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/Birte_ion_effect.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/Birte_ion_effect.jpg" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Understanding atmospheric new particle formation is of paramount importance, since it is impacting the climate. Particle formation through iodine oxoacid nucleation, has rarely been incorporated into global simulations, despite observations at various coastal locations and increasing concentration of iodine, primarily driven by climate change. This study employs chamber measurements and a kinetic model to explore the influence of temperature, ionisation rate, and humidity on iodine oxoacid nucleation. Our findings indicate that ion-induced formation rates of iodine oxoacid are not significantly affected by temperature but the neutral formation rates increase with decreasing temperature. Furthermore, increases in ionisation rates decrease the ion induced nucleation rate under atmospherically relevant iodic acid concentrations and humidity has no significant effect on nucleation.</p>
       <p><em>B. Rorup, <strong>X.-C. He</strong>*, J. Shen, …, R. Volkamer, D.R. Worsnop, K. Lehtipalo</em></p>
       <p><strong><a href="https://pubs.rsc.org/en/Content/ArticleLanding/2024/EA/D4EA00013G">Environmental Science Atmosphere (2024)</a></strong></p>
@@ -65,7 +65,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Iodine oxoacids enhance nucleation of sulfuric acid particles in the atmosphere</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/XCH_Science_23_field.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/XCH_Science_23_field.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>How are new particles formed in the air above the oceans, where ammonia, an important species in the process, is not very abundant? He et al. report that iodine oxoacids, which are plentiful in marine environments, can substantially increase the rate of new particle formation in the low-ammonia conditions commonly found in pristine marine and polar regions. This effect could be particularly important in low-level marine stratocumulus clouds, which reflect a large fraction of incident solar radiation back into space and have an important influence on global radiation balance and climate. —H. Jesse Smith</p>
       <p><em><strong>X.-C. He</strong>*, M. Simon, S. Iyer, H.-B. Xie*, …, J. Kirkby, N.M. Donahue, M. Sipila*, M. Kulmala*</em></p>
       <p><strong><a href="https://www.science.org/doi/10.1126/science.adh2526">Science (2023)</a></strong></p>
@@ -77,7 +77,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Characterisation of gaseous iodine species detection using the multi-scheme chemical ionisation inlet 2 with bromide and nitrate chemical ionisation methods</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/MION2_inlet.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/MION2_inlet.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>The multi-scheme chemical ionisation inlet 1 (MION1) enables rapid switching between the measurement of atmospheric ions without chemical ionisation and neutral molecules using various atmospheric pressure chemical ionisation methods. In this study, we introduce the upgraded version, the multi-scheme chemical ionisation inlet 2 (MION2). The new design incorporates enhanced ion optics, resulting in increased reagent ion concentration, ensuring a robust operation, and enabling the use of multiple chemical ionisation methods with the same ionisation time.</p>
       <p><em><strong>X.-C. He</strong>*, J. Shen*, S. Iyer, …, J. Mikkila, M. Sipila, J. Kangasluoma</em></p>
       <p><strong><a href="https://amt.copernicus.org/articles/16/4461/2023/">Atmospheric Measurement Techniques (2023)</a></strong></p>
@@ -93,7 +93,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Enhancement of Atmospheric Nucleation Precursors on Iodic Acid-Induced Nucleation: Predictive Model and Mechanism</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/Enhancements_of_HIO3_nucleation.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/Enhancements_of_HIO3_nucleation.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Iodic acid (IA) has recently been recognized as a key driver for new particle formation (NPF) in marine atmospheres. However, the knowledge of which atmospheric vapors can enhance IA-induced NPF remains limited. The unique halogen bond (XB)-forming capacity of IA makes it difficult to evaluate the enhancing potential (EP) of target compounds on IAinduced NPF based on widely studied sulfuric acid systems. Herein, we employed athree-step procedure to evaluate the EP of potential atmospheric nucleation precursors on IA-induced NPF. First, we evaluated the EP of 63 precursors by simulating the formation free energies (ΔG) of the IA-containing dimer clusters. Among all dimer clusters, 44 contained XBs, demonstrating that XBs are frequently formed. Based on the calculated ΔG values, aquantitative structure−activity relationship model was developed for evaluating the EP of other precursors.</p>
       <p><em>F. Ma, H.-B. Xie<sup>*</sup>, R. Zhang, …, M. Engsvang, J. Elm, <strong>X.-C. He</strong>*</em></p>
       <p><strong><a href="https://pubs.acs.org/doi/10.1021/acs.est.3c01034">Environmental Science and Technology (2023)</a></strong></p>
@@ -105,7 +105,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>The gas-phase formation mechanism of iodic acid as an atmospheric aerosol source</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/HIO3_formation_mechanism.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/HIO3_formation_mechanism.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Iodine is a reactive trace element in atmospheric chemistry that destroys ozone and nucleates particles. Iodine emissions have tripled since 1950 and are projected to keep increasing with rising O<sub>3</sub> surface concentrations. Although iodic acid (HIO<sub>3</sub>) is widespread and forms particles more efficiently than sulfuric acid, its gas-phase formation mechanism remains unresolved. Here, in CLOUD atmospheric simulation chamber experiments that generate iodine radicals at atmospherically relevant rates, we show that iodooxy hypoiodite, IOIO, is efficiently converted into HIO<sub>3</sub> via reactions (R1) IOIO + O<sub>3</sub> → IOIO<sub>4</sub> and (R2) IOIO<sub>4</sub> + H<sub>2</sub>O → HIO<sub>3</sub> + HOI + (1)O<sub>2</sub>. The laboratory-derived reaction rate coefficients are corroborated by theory and shown to explain field observations of daytime HIO<sub>3</sub> in the remote lower free troposphere. The mechanism provides a missing link between iodine sources and particle formation. Because particulate iodate is readily reduced, recycling iodine back into the gas phase, our results suggest a catalytic role of iodine in aerosol formation.</p>
       <p><em>H. Finkenzeller<sup>+</sup>*, S. Iyer<sup>+</sup>, <strong>X.-C. He</strong>, …, T. Kurten, M.P. Rissanen, R. Volkamer*</em></p>
       <p><strong><a href="https://www.nature.com/articles/s41557-022-01067-z">Nature Chemistry (2022)</a></strong></p>
@@ -121,7 +121,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Critical Role of Iodous Acid in Neutral Iodine Oxoacid Nucleation</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/Critical_role_HIO2_abstract_figure.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/Critical_role_HIO2_abstract_figure.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
       <p>The precise role of HIO<sub>2</sub> in iodine oxoacid nucleation remains unclear. In this study, we probe such a role by investigating the cluster formation mechanisms and kinetics of (HIO<sub>3</sub>)m(HIO<sub>2</sub>)n (m = 0–4, n = 0–4) clusters with quantum chemical calculations and atmospheric cluster dynamics modeling. The fastest nucleation rate is predicted for mixed HIO<sub>3</sub>–HIO<sub>2</sub> clusters rather than for pure HIO<sub>3</sub> or HIO<sub>2</sub> ones. Our calculations reveal that the strong binding results from HIO<sub>2</sub> exhibiting a base behavior (accepting a proton from HIO<sub>3</sub>) and forming stronger halogen bonds. Our predicted cluster formation rates and dimer concentrations are acceptably consistent with those measured by the Cosmic Leaving Outdoor Droplets (CLOUD) experiment. This study suggests that HIO<sub>2</sub> could facilitate the nucleation of other acids beyond HIO3 in regions where base vapors such as ammonia or amines are scarce.</p>
       <p><em>R. Zhang, H.-B. Xie*, F. Ma., …, M. Sipila, M. Kulmala, <strong>X.-C. He</strong>*</em></p>
       <p><strong><a href="https://pubs.acs.org/doi/10.1021/acs.est.2c04328">Environmental Science and Technology 56, 19 (2022)</a></strong></p>
@@ -133,7 +133,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Role of iodine oxoacids in atmospheric aerosol nucleation</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/IOAP_mechanisms.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/IOAP_mechanisms.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Iodine species are one of only a handful of atmospheric vapors known to make new aerosol particles, which play a central role in controlling the radiative forcing of climate. He et al. report experimental evidence from the CERN Cosmics Leaving Outdoor Droplets, or CLOUD, chamber demonstrating that iodic acid and iodous acid rapidly form new particles and can compete with sulfuric acid in pristine regions.</p>
       <p><em><strong>X.-C. He</strong>*, Y.J. Tham, L. Dada, …, J. Kirkby*, D.R. Worsnop, M. Sipila*</em></p>
       <p><strong><a href="https://science.sciencemag.org/content/371/6529/589">Science 371, 6529 (2021)</a></strong></p>
@@ -149,7 +149,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Determination of the collision rate coefficient between charged iodic acid clusters and iodic acid using the appearance time method</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/IA_clusters.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/IA_clusters.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Ions enhance the formation rate of atmospheric aerosol particles, which play an important role in Earth’s radiative balance. Although theoretical frameworks exist to calculate the collision rate coefficients between neutral molecules and ions, they need to be experimentally confirmed, ideally under atmospherically relevant conditions of around 1000 ion pairs cm<sup>-3</sup>$. Here, in experiments performed under atmospheric conditions in the CERN CLOUD chamber, we have measured the collision rate coefficients between neutral iodic acid (HIO<sub>3</sub>) monomers and charged iodic acid molecular clusters containing up to 11 iodine atoms. Three methods were analytically derived to calculate ion-polar molecule collision rate coefficients.</p>
       <p><em><strong>X.-C. He</strong>*, S. Iyer, M. Sipila, …, J. Kirkby*, T. Kurten, M. Kulmala</em></p>
       <p><strong><a href="https://doi.org/10.1080/02786826.2020.1839013">Aerosol Science and Technology 55, 2 (2021)</a></strong></p>
@@ -161,7 +161,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Measurement of iodine species and sulfuric acid using bromide chemical ionization mass spectrometers</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/BrCIMS_peaks.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/BrCIMS_peaks.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>Iodine species are important in the marine atmosphere for oxidation and new-particle formation. Here, we describe the application of a bromide chemical ionization mass spectrometer (Br-CIMS) to measure iodine species. We have measured gas-phase iodine species and sulfuric acid using two BrCIMS. From offline calibrations and intercomparisons with other instruments, we have quantified the sensitivities of the Br-MIONCIMS to HOI, I<sub>2</sub>, and H<sub>2</sub>SO<sub>4</sub> and obtained detection limits of 5.8 × 10<sup>6</sup>, 3.8 × 10<sup>5</sup>, and 2.0 × 10<sup>5</sup> molec. cm<sup>−3</sup>, respectively, for a 2 min integration time.</p>
       <p><em>M. Wang<sup>+</sup>, <strong>X.-C. He</strong><sup>+</sup>*, H. Finkenzeller, …, Y.J. Tham*, N.M. Donahue, M. Sipila</em></p>
       <p><strong><a href="https://amt.copernicus.org/articles/14/4187/2021/">Atmospheric Measurement Techniques 14, 6 (2021)</a></strong></p>
@@ -177,7 +177,7 @@
   <div class="col-sm-6 clearfix">
     <div class="well">
       <pubtit>Direct field evidence of autocatalytic iodine release from atmospheric aerosol</pubtit>
-      <p><img src="http://localhost:4000/images/pubpic/ICl_aerosol_surface.png" class="img-responsive" width="100%" style="float: left" /></p>
+      <p><img src="/images/pubpic/ICl_aerosol_surface.png" class="img-responsive" width="100%" style="float: left" /></p>
       <p>The postulation that heterogeneous cycling of reactive iodine on aerosols may significantly influence the lifetime of ozone in the troposphere not only remains poorly understood but also heretofore has never been observed or quantified in the field. Here, we report direct ambient observations of hypoiodous acid (HOI) and heterogeneous recycling of interhalogen product species (i.e., iodine monochloride [ICl] and iodine monobromide [IBr]) in a midlatitude coastal environment. Significant levels of ICl and IBr with mean daily maxima of 4.3 and 3.0 parts per trillion by volume (1-min average), respectively, have been observed throughout the campaign. We show that the heterogeneous reaction of HOI on marine aerosol and subsequent production of iodine interhalogens are much faster than previously thought.</p>
       <p><em>Y.J. Tham, <strong>X.-C. He</strong>, Q. Li, …, M. Dal Maso, A. Saiz-Lopez*, M. Sipila*</em></p>
       <p><strong><a href="http://www.pnas.org/lookup/doi/10.1073/pnas.2009951118">Proceedings of the National Academy of Sciences 118, 4 (2021)</a></strong></p>

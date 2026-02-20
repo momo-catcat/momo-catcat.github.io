@@ -23,10 +23,10 @@
   number_educ: 1
   education1: PhD at Tsinghua University, 2025.10
 - name: Wenjuan Yu
-  photo:
+  photo: Wenjuan.jpeg
   cv:
   info: Doctoral Student
-  description: ""
+  description: "My research focuses on atmospheric new particle formation and early particle growth in the marine atmosphere. I use particle instrumentation, including PSM, CPC, NAIS etc., together with thermodynamic modelling to investigate the mechanisms controlling particle formation and initial growth.Based on CLOUD chamber experiment at CERN, I study the role of sulfur-containing species such as sulfuric acid and methanesulfonic acid in driving particle formation under atmospherically relevant conditions. My work aims to improve the representation of marine aerosol-cloud interactions in climate models."
   email: wenjuan.yu@helsinki.fi
   number_educ: 1
   education1: MSc at University of Stockholm, 2022.06
