@@ -1,5 +1,6 @@
 - name: Xu-Cheng He
   photo: Xu-ChengHE_2.jpg
+  cv: CV_XCH.pdf
   info: Academy Research Fellow, PI
   description: "My research focuses on atmospheric aerosol formation and its climatic impacts, integrating advanced mass spectrometry, quantum chemistry, kinetic modelling, and Earth system modelling. My current work investigates chemical processes and particle formation mechanisms in the marine atmosphere, the upper troposphere above tropical rainforests, and the interactions between continental and marine environments."
   email: xucheng.he@helsinki.fi
@@ -7,6 +8,7 @@
   education1: PhD at University of Helsinki, 2021.09
 - name: Jiali Shen
   photo:
+  cv:
   info: University Researcher
   description: ""
   email: jiali.shen@helsinki.fi
@@ -14,6 +16,7 @@
   education1: PhD at University of Helsinki, 2023.04
 - name: Dejia Yin
   photo:
+  cv:
   info: Postdoctoral Researcher
   description: ""
   email: dejia.yin@helsinki.fi
@@ -21,6 +24,7 @@
   education1: PhD at Tsinghua University, 2025.10
 - name: Wenjuan Yu
   photo:
+  cv:
   info: Doctoral Student
   description: ""
   email: wenjuan.yu@helsinki.fi
