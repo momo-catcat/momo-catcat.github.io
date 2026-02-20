@@ -12,7 +12,11 @@ layout: default
            class="img-responsive" style="max-width: 220px;" />
     </div>
     <div class="col-sm-9" style="font-size: 1.1em;">
+      {% if member.cv and member.cv != "" %}
+      <h4><a href="{{ site.url }}{{ site.baseurl }}/assets/cv/{{ member.cv }}" target="_blank">{{ member.name }}</a></h4>
+      {% else %}
       <h4>{{ member.name }}</h4>
+      {% endif %}
       <i>{{ member.info }}</i>
       <ul style="padding-left: 1em;">
         {% assign number_educ = member.number_educ | plus: 0 %}
