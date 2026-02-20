@@ -7,10 +7,10 @@
   number_educ: 1
   education1: PhD at University of Helsinki, 2021.09
 - name: Jiali Shen
-  photo:
-  cv:
+  photo: Jiali.jpeg
+  cv: CV_jiali.pdf
   info: University Researcher
-  description: ""
+  description: "My research focuses on atmospheric new particle formation and growth driven by dimethyl sulfide (DMS) and isoprene (IP), and their climatic impacts, using advanced mass spectrometry (APi-TOF, MION, Orbitrap) and kinetic modelling (box and 2-D models). My current work investigates the oxidation chemistry of DMS in the marine atmosphere and new particle formation from isoprene in the upper troposphere above tropical rainforests. Through controlled experiments at the CERN CLOUD chamber and collaborations within international research networks, I aim to advance our understanding of the chemical mechanisms driving aerosol formation and their implications for climate."
   email: jiali.shen@helsinki.fi
   number_educ: 1
   education1: PhD at University of Helsinki, 2023.04
