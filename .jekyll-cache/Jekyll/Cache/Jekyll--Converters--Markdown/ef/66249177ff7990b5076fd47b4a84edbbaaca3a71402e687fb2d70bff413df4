@@ -1,0 +1,64 @@
+I"/<h1 id="research">Research</h1>
+<h5 id="there-are-several-ways-to-study-atmospheric-composition-field-observations-laboratory-experiments-physical-chemistry-and-models-of-different-scales-without-any-doubt-they-are-complementary-observations-tell-us-the-reality-experiments-and-theories-explain-the-mechanisms-and-models-help-to-predict-the-past-and-future-i-have-always-been-charmed-by-the-possibility-to-combine-several-of-these-methods-to-look-at-a-problem-from-different-angles--a-way-i-believe-that-will-tell-us-the-most-about-the-importance-of-an-atmospheric-phenomenon">There are several ways to study atmospheric composition: field observations, laboratory experiments, physical chemistry and models of different scales. Without any doubt, they are complementary: observations tell us the reality, experiments and theories explain the mechanisms and models help to predict the past and future. I have always been charmed by the possibility to combine several of these methods to look at a problem from different angles – a way I believe that will tell us the most about the importance of an atmospheric phenomenon.</h5>
+
+<h5 id="my-past-and-current-research-has-a-central-theme-understanding-the-cloud-radiative-forcings-in-polar-and-marine-environments-with-a-special-focus-on-the-role-of-iodine-sulfur-and-oxidised-organic-species-in-atmospheric-particle-and-cloud-condensation-nuclei-formation-processes-my-research-combines-state-of-art-mass-spectrometric-methods-with-quantum-chemical-calculations-laboratory-experiments-field-observations-and-models-of-different-scales-to-help-achieve-molecular-understandings-of-these-scientific-questions">My past and current research has a central theme: understanding the cloud radiative forcings in polar and marine environments, with a special focus on the role of iodine, sulfur and oxidised organic species in atmospheric particle and cloud condensation nuclei formation processes. My research combines state-of-art mass spectrometric methods with quantum chemical calculations, laboratory experiments, field observations and models of different scales to help achieve molecular understandings of these scientific questions.</h5>
+
+<h2 id="methodology">Methodology</h2>
+<div class="col-sm-12 clearfix">
+  <div class="well">
+    <h3 id="chemical-ionisation-methodology-development">Chemical ionisation methodology development</h3>
+    <p><img src="http://localhost:4000/images/respic/BrCIMS_peaks.png" class="img-responsive" width="100%" style="float: left" /></p>
+
+    <h5 id="one-of-the-key-challenges-in-atmospheric-iodine-studies-is-that-there-are-few-methods-that-can-measure-iodine-species-at-atmospherically-relevant-levels-these-methods-commonly-only-measure-one-or-very-few-iodine-species-at-a-time-this-hinders-us-from-underderstanding-atmospheric-iodine-chemistry-and-particle-formation-in-detail">One of the key challenges in atmospheric iodine studies is that there are few methods that can measure iodine species at atmospherically relevant levels. These methods commonly only measure one, or very few iodine species at a time. This hinders us from underderstanding atmospheric iodine chemistry and particle formation in detail.</h5>
+
+    <h5 id="inspired-by-earlier-works-utilising-the-iodine-chemical-ionisation-method-to-detect-chlorine-and-bromine-species-i-started-wondering-why-not-instead-try-to-use-bromine-to-detect-iodine-i-tested-this-idea-as-a-part-of-my-masters-thesis-project-and-it-returned-a-surprise-this-method-not-only-detects-most-of-the-gaseous-iodine-species-simultaneously-but-also-comes-with-an-unprecedented-sensitivity-we-further-developed-this-method-to-detect-iodine-species-both-in-the-gaseous-and-particular-phases-with-two-mass-spectrometers-this-method-later-leads-to-the-first-online-detection-of-hypoiodous-acid-hoi-the-largest-inorganic-iodine-emission-globally">Inspired by earlier works utilising the iodine chemical ionisation method to detect chlorine and bromine species, I started wondering: why not instead try to use bromine to detect iodine? I tested this idea as a part of my <a href="https://helda.helsinki.fi/handle/10138/229173">Master’s thesis</a> project and it returned a surprise! This method not only detects most of the gaseous iodine species simultaneously but also comes with an unprecedented sensitivity! We further developed this method to detect iodine species both in the gaseous and particular phases with <a href="https://amt.copernicus.org/articles/14/4187/2021/">two mass spectrometers</a>. This method later leads to the first <a href="http://www.pnas.org/lookup/doi/10.1073/pnas.2009951118">online detection of hypoiodous acid (HOI)</a>, the largest inorganic iodine emission globally.</h5>
+
+  </div>
+</div>
+
+<div class="col-sm-12 clearfix">
+  <div class="well">
+    <h3 id="kinetic-modelling-">Kinetic modelling <img src="http://localhost:4000/images/respic/IA_clusters.png" class="img-responsive" width="100%" style="float: left" /></h3>
+
+    <h5 id="interpretation-of-experimental-data-is-sometimes-tricky-especially-if-you-want-to-dig-out-hidden-fruits-kinetic-simulations-could-help-in-this-case---it-can-constrain-well-studied-parameters-and-bring-out-the-important-ones-it-can-also-help-to-test-different-hypotheses-and-to-predict-the-outcomes-of-various-scenarios">Interpretation of experimental data is sometimes tricky, especially if you want to dig out hidden fruits. Kinetic simulations could help in this case - it can constrain well-studied parameters and bring out the important ones. It can also help to test different hypotheses and to predict the outcomes of various scenarios.</h5>
+
+    <h5 id="in-order-to-simulate-ion-induced-iodic-acid-nucleation-processes-i-developped-the-panda520-kinetic-model-which-utilises-realistic-parameterisations-from-the-cloud-chamber-the-model-has-been-shown-to-be-able-to-accurately-capture-the-ion-induced-iodic-acid-nucleation-processes-and-is-currently-being-developed-to-derive-a-parameterisation-of-these-processes">In order to simulate ion-induced iodic acid nucleation processes, I developped the <a href="https://doi.org/10.1080/02786826.2020.1839013">PANDA520</a> kinetic model which utilises realistic parameterisations from the CLOUD chamber. The model has been shown to be able to accurately capture the ion-induced iodic acid nucleation processes and is currently being developed to derive a parameterisation of these processes.</h5>
+
+    <!-- <img src="http://localhost:4000/images/respic/fig_simulation_signletube.png" class="img-responsive" width="100%" style="float: left" /> -->
+
+    <h5 id="the-calibration-of-chemical-ionisation-mass-spectrometers-sometimes-involves-simulating-photo-chemical-reactions-in-a-flow-reactor-the-best-examples-are-probably-the-calibration-of-gaseous-sulfuric-acid-and-hypoiodous-acid-together-with-jiali-shen-i-maintain-an-open-source-python-library-marforce-that-can-help-simulate-the-convection-diffusion-reaction-processes-in-a-cylindrical-flow-reactor-we-are-happy-to-receive-comments-or-suggestions-for-the-model-development">The calibration of chemical ionisation mass spectrometers sometimes involves simulating photo-chemical reactions in a flow reactor. The best examples are probably the calibration of gaseous sulfuric acid and hypoiodous acid. Together with Jiali Shen, I maintain an open-source Python library (<a href="https://github.com/momo-catcat/MARFORCE-flowtube">MARFORCE</a>) that can help simulate the convection-diffusion-reaction processes in a cylindrical flow reactor. We are happy to receive comments or suggestions for the model development.</h5>
+  </div>
+</div>
+
+<div class="col-sm-12 clearfix">
+  <div class="well">
+    <h3 id="smog-chamber-experiments-">Smog chamber experiments <img src="http://localhost:4000/images/respic/cloud_chamber.png" class="img-responsive" width="100%" style="float: left" /></h3>
+
+    <h5 id="laboraotry-experiment-is-the-primary-part-of-my-research-it-is-the-best-way-to-disentangle-the-complex-chemical-processes-of-the-atmosphere">Laboraotry experiment is the primary part of my research. It is the best way to disentangle the complex chemical processes of the atmosphere.</h5>
+
+    <h5 id="i-primarily-utilised-the-cloud-chamber-at-cern-to-do-my-research-on-iodine-and-sulfur-induced-new-particle-formation-processes-i-started-leading-the-marine-particle-formation-experiments-at-cloud-since-the-experiments-were-initiated-in-2017-and-im-continuing-this-task-to-examine-the-particle-formation-potential-of-more-complex-mixtures">I primarily utilised the CLOUD chamber at CERN to do my research on iodine and sulfur induced new particle formation processes. I started leading the marine particle formation experiments at CLOUD since the experiments were initiated in 2017, and I’m continuing this task to examine the particle formation potential of more complex mixtures.</h5>
+
+  </div>
+</div>
+
+<div class="col-sm-12 clearfix">
+  <div class="well">
+    <h3 id="quantum-chemical-simulations-">Quantum chemical simulations <img src="http://localhost:4000/images/respic/HIO3HIO2_QC_schematic.jpeg" class="img-responsive" width="100%" style="float: left" /></h3>
+
+    <h5 id="theoretical-methods-are-important-complementary-to-experimental-activities-and-occasionally-they-can-be-used-to-guide-the-experimental-works-they-can-provide-the-details-of-chemical-reactions-and-particle-formation-processes-and-they-are-the-key-components-of-my-past-research">Theoretical methods are important complementary to experimental activities and occasionally they can be used to guide the experimental works. They can provide the details of chemical reactions and particle formation processes and they are the key components of my past research.</h5>
+
+    <h5 id="i-regularlly-collaborate-with-physical-chemists-to-understand-the-mechanisms-behind-my-experiments-the-best-example-is-the-collaboration-in-the-formation-mechanisms-of-iodine-oxoacid-clusters-with-quantum-chemical-calculations-we-found-the-special-base-behaviour-of-iodous-acid-which-enables-it-to-cluster-with-iodic-acid-strongly">I regularlly collaborate with physical chemists to understand the mechanisms behind my experiments. The best example is the collaboration in the formation mechanisms of iodine oxoacid clusters. With quantum chemical calculations, we found the special <a href="https://pubs.acs.org/doi/10.1021/acs.est.2c04328">base behaviour of iodous acid</a> which enables it to cluster with iodic acid strongly.</h5>
+  </div>
+</div>
+
+<div class="col-sm-12 clearfix">
+  <div class="well">
+    <h3 id="field-observations">Field observations</h3>
+    <p><img src="http://localhost:4000/images/respic/HOI_measurements.png" class="img-responsive" width="100%" style="float: left" /></p>
+
+    <h5 id="the-goal-of-atmosheric-research-is-to-understand-the-processes-in-the-atmosphere-and-try-to-predict-the-future-undoubtely-directly-observing-the-atmosphere-is-the-best-way-to-know-what-are-there-and-what-they-are-doing-it-gives-the-inspiration-of-what-experiments-and-simulations-we-should-do-to-understand-it">The goal of atmosheric research is to understand the processes in the atmosphere and try to predict the future. Undoubtely, directly observing the atmosphere is the best way to know what are there and what they are doing. It gives the inspiration of what experiments and simulations we should do to understand it.</h5>
+
+    <h5 id="i-was-involved-in-observations-both-in-the-polluted-environments-and-pristine-coastal-and-marine-environments-these-observations-contributed-to-the-first-online-measurement-of-hypoiodous-acid-and-resolve-the-formation-mechanisms-of-iodic-acid">I was involved in observations both in the polluted environments and pristine coastal and marine environments. These observations contributed to the <a href="http://www.pnas.org/lookup/doi/10.1073/pnas.2009951118">first online measurement of hypoiodous acid</a> and resolve the <a href="https://www.nature.com/articles/s41557-022-01067-z">formation mechanisms of iodic acid</a>.</h5>
+  </div>
+</div>
+:ET
