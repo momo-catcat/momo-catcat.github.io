@@ -4,5 +4,5 @@ gem "webrick", "~> 1.7"
 
 source "https://rubygems.org"
 
-ruby "~> 3.1.3"
+ruby ">= 3.1.3"
 
