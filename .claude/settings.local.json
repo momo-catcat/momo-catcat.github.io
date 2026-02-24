@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(ruby --version)",
+      "Bash(bundler --version)",
+      "Bash(gem list jekyll --remote --all)",
+      "Bash(bundle update)",
+      "Bash(bundle lock --add-platform x86_64-linux)",
+      "Bash(bundle exec jekyll build)",
+      "Bash(git status -u)",
+      "Bash(git add Gemfile Gemfile.lock vercel.json)",
+      "Bash(git commit:*)"
     ]
   }
 }
