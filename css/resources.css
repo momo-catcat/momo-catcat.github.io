@@ -2,6 +2,11 @@
    Resources Wiki — Styles
    ============================================================ */
 
+/* ---- Account for fixed navbar ---- */
+body {
+  padding-top: 70px;
+}
+
 /* ---- Reset container width for resources ---- */
 #resources-root {
   max-width: none !important;
