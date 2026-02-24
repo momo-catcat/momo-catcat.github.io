@@ -10,7 +10,11 @@
       "Bash(bundle exec jekyll build)",
       "Bash(git status -u)",
       "Bash(git add Gemfile Gemfile.lock vercel.json)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git add _pages/resources.md)",
+      "Bash(git push)",
+      "Bash(git rm /Users/hexuchen/Documents/science/CV_website/website/momo-catcat.github.io/CNAME)",
+      "Bash(git add _pages/resources.md _config.yml)"
     ]
   }
 }
