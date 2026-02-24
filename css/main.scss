@@ -46,6 +46,11 @@ firstp {
   max-width: 1000px; /* or 950px */
 }
 
+/* Let the navbar use full width so brand + links fit on one line */
+.navbar .container-fluid {
+  max-width: none;
+}
+
 /* Home, News */
 #newsid p {
 	text-align: left;
