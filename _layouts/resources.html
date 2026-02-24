@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resources | {{ site.title }}</title>
+  <meta name="description" content="Internal group resources and wiki">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/resources.css" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico">
+</head>
+<body>
+
+  {% include header.html %}
+
+  <div id="resources-root" class="container-fluid">
+
+    <!-- Loading -->
+    <div id="loading-screen" class="resources-loading">
+      <span class="glyphicon glyphicon-refresh res-spinning"></span>
+      <p>Loading&hellip;</p>
+    </div>
+
+    <!-- API unavailable (e.g. accessed via GitHub Pages instead of Vercel) -->
+    <div id="unavailable-screen" class="resources-pending" style="display:none;">
+      <div class="pending-card">
+        <span class="glyphicon glyphicon-exclamation-sign" style="color:#d9534f;"></span>
+        <h2>Resources Unavailable</h2>
+        <p>The Resources wiki requires the Vercel deployment.<br>
+           Please access this page via your Vercel domain.</p>
+      </div>
+    </div>
+
+    <!-- Auth Screen -->
+    <div id="auth-screen" class="resources-auth" style="display:none;">
+      <div class="auth-card">
+        <div class="auth-header">
+          <span class="glyphicon glyphicon-lock"></span>
+          <h2>Group Resources</h2>
+          <p>Internal wiki &mdash; sign in to continue</p>
+        </div>
+        <a id="github-login-btn" href="/api/auth/login" class="btn btn-default btn-block" style="font-size:16px;padding:10px;">
+          <img src="https://github.githubassets.com/favicons/favicon-dark.svg" alt="" style="width:20px;height:20px;vertical-align:middle;margin-right:8px;margin-top:-2px;">
+          Sign in with GitHub
+        </a>
+        <div id="auth-error" class="alert alert-danger" style="display:none;margin-top:16px;"></div>
+        <p style="margin-top:18px;font-size:13px;color:#999;text-align:center;">
+          Access is managed by the group admin.<br>
+          New users will be placed in a pending queue.
+        </p>
+      </div>
+    </div>
+
+    <!-- Pending Approval -->
+    <div id="pending-screen" class="resources-pending" style="display:none;">
+      <div class="pending-card">
+        <span class="glyphicon glyphicon-time"></span>
+        <h2>Pending Approval</h2>
+        <p>Your account (<strong id="pending-login"></strong>) is waiting for administrator approval.</p>
+        <p>Please contact the group admin to request access.</p>
+        <a href="/api/auth/logout" class="btn btn-default" style="margin-top:12px;">Sign Out</a>
+      </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="app-screen" class="resources-app" style="display:none;">
+      <!-- User Bar -->
+      <div class="resources-user-bar">
+        <div class="user-info">
+          <img id="user-avatar" src="" alt="" style="width:22px;height:22px;border-radius:50%;margin-right:4px;display:none;">
+          <span id="user-name"></span>
+          <span id="user-role" class="label label-default"></span>
+        </div>
+        <div class="user-actions">
+          <button id="admin-btn" class="btn btn-xs btn-warning" style="display:none;">
+            <span class="glyphicon glyphicon-cog"></span> Admin
+          </button>
+          <a href="/api/auth/logout" class="btn btn-xs btn-default">
+            <span class="glyphicon glyphicon-log-out"></span> Sign Out
+          </a>
+        </div>
+      </div>
+
+      <!-- Sidebar + Content -->
+      <div class="resources-main">
+        <!-- Sidebar -->
+        <div class="resources-sidebar" id="resources-sidebar">
+          <div class="sidebar-header">
+            <input type="text" id="page-search" class="form-control input-sm" placeholder="Search pages&hellip;">
+          </div>
+          <div class="sidebar-actions" id="sidebar-actions" style="display:none;">
+            <button id="new-root-page" class="btn btn-xs btn-primary btn-block">
+              <span class="glyphicon glyphicon-plus"></span> New Page
+            </button>
+          </div>
+          <div id="page-tree" class="page-tree"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="resources-content">
+
+          <!-- Mobile sidebar toggle -->
+          <button id="mobile-toggle" class="mobile-toggle-btn" style="display:none;">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+
+          <!-- Empty state -->
+          <div id="content-empty" class="content-empty">
+            <span class="glyphicon glyphicon-book"></span>
+            <h3>Group Wiki</h3>
+            <p>Select a page from the sidebar, or create a new one to get started.</p>
+          </div>
+
+          <!-- Page view -->
+          <div id="content-view" style="display:none;">
+            <div class="content-header">
+              <div id="content-breadcrumb" class="breadcrumb-nav"></div>
+              <div class="content-actions" id="content-actions">
+                <button id="edit-page-btn" class="btn btn-sm btn-primary" style="display:none;">
+                  <span class="glyphicon glyphicon-pencil"></span> Edit
+                </button>
+                <button id="add-child-btn" class="btn btn-sm btn-success" style="display:none;">
+                  <span class="glyphicon glyphicon-plus"></span> Sub-page
+                </button>
+                <button id="delete-page-btn" class="btn btn-sm btn-danger" style="display:none;">
+                  <span class="glyphicon glyphicon-trash"></span> Delete
+                </button>
+              </div>
+            </div>
+            <h1 id="content-title"></h1>
+            <div id="content-body" class="markdown-body"></div>
+            <div id="content-meta" class="content-meta"></div>
+          </div>
+
+          <!-- Page editor -->
+          <div id="content-editor" style="display:none;">
+            <div class="editor-header">
+              <input type="text" id="editor-title" class="form-control" placeholder="Page Title">
+            </div>
+            <div class="editor-toolbar">
+              <button class="btn btn-xs btn-default" data-action="bold" title="Bold"><b>B</b></button>
+              <button class="btn btn-xs btn-default" data-action="italic" title="Italic"><i>I</i></button>
+              <button class="btn btn-xs btn-default" data-action="heading" title="Heading"><b>H</b></button>
+              <span class="toolbar-divider"></span>
+              <button class="btn btn-xs btn-default" data-action="link" title="Insert Link">
+                <span class="glyphicon glyphicon-link"></span>
+              </button>
+              <button class="btn btn-xs btn-default" data-action="image" title="Insert Image URL">
+                <span class="glyphicon glyphicon-picture"></span>
+              </button>
+              <button class="btn btn-xs btn-default" data-action="upload" title="Upload Image">
+                <span class="glyphicon glyphicon-upload"></span>
+              </button>
+              <span class="toolbar-divider"></span>
+              <button class="btn btn-xs btn-default" data-action="code" title="Code">
+                <span class="glyphicon glyphicon-console"></span>
+              </button>
+              <button class="btn btn-xs btn-default" data-action="ulist" title="Bullet List">
+                <span class="glyphicon glyphicon-list"></span>
+              </button>
+              <button class="btn btn-xs btn-default" data-action="olist" title="Numbered List">
+                <span class="glyphicon glyphicon-th-list"></span>
+              </button>
+              <button class="btn btn-xs btn-default" data-action="quote" title="Quote">
+                <span class="glyphicon glyphicon-comment"></span>
+              </button>
+              <button class="btn btn-xs btn-default" data-action="table" title="Table">
+                <span class="glyphicon glyphicon-th"></span>
+              </button>
+              <button class="btn btn-xs btn-default" data-action="hr" title="Horizontal Rule">&mdash;</button>
+              <span class="toolbar-divider"></span>
+              <button class="btn btn-xs btn-default" id="preview-toggle" data-action="preview" title="Toggle Preview">
+                <span class="glyphicon glyphicon-eye-open"></span> Preview
+              </button>
+            </div>
+            <div class="editor-body">
+              <textarea id="editor-content" class="form-control"
+                        placeholder="Write your content in Markdown&hellip;"></textarea>
+              <div id="editor-preview" class="markdown-body" style="display:none;"></div>
+            </div>
+            <div class="editor-footer">
+              <button id="save-page-btn" class="btn btn-primary">
+                <span class="glyphicon glyphicon-floppy-disk"></span> Save
+              </button>
+              <button id="cancel-edit-btn" class="btn btn-default">Cancel</button>
+              <span id="editor-status" class="editor-status"></span>
+            </div>
+            <input type="file" id="image-upload-input" accept="image/*" style="display:none;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Admin Modal -->
+    <div id="admin-modal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <h4 class="modal-title">
+              <span class="glyphicon glyphicon-cog"></span> Admin Panel
+            </h4>
+          </div>
+          <div class="modal-body">
+            <!-- Add user -->
+            <div class="admin-section">
+              <h5>Add User by GitHub Username</h5>
+              <div class="form-inline">
+                <input type="text" id="add-user-login" class="form-control" placeholder="GitHub username">
+                <select id="add-user-role" class="form-control">
+                  <option value="viewer">Viewer</option>
+                  <option value="editor">Editor</option>
+                </select>
+                <button id="add-user-btn" class="btn btn-primary">
+                  <span class="glyphicon glyphicon-plus"></span> Add
+                </button>
+              </div>
+              <div id="add-user-status" style="margin-top:8px;"></div>
+            </div>
+            <!-- Users -->
+            <div class="admin-section">
+              <h5>Registered Users</h5>
+              <div id="users-list"><span class="text-muted-sm">Loading&hellip;</span></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confirm Dialog container -->
+    <div id="confirm-container"></div>
+
+  </div><!-- /resources-root -->
+
+  {% include footer.html %}
+
+  <!-- Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js"></script>
+
+  <!-- App -->
+  <script src="{{ site.url }}{{ site.baseurl }}/js/resources-app.js"></script>
+
+</body>
+</html>
