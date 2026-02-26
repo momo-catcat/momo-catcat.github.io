@@ -1,3 +1,4 @@
+@use "sass:math";
 $bootstrap-sass-asset-helper: false !default;
 // Lumen 3.3.7
 // Variables
@@ -78,7 +79,7 @@ $headings-color:          $gray-dark !default;
 //## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
 
 //** Load fonts from this directory.
-$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/") !default;
+$icon-font-path: "../fonts/" !default;
 //** File name for all font files.
 $icon-font-name:          "glyphicons-halflings-regular" !default;
 //** Element ID within SVG icon file.
@@ -362,8 +363,8 @@ $container-lg:                 $container-large-desktop !default;
 $navbar-height:                    50px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
-$navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
-$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
+$navbar-padding-horizontal:        floor(math.div($grid-gutter-width, 2)) !default;
+$navbar-padding-vertical:          math.div(($navbar-height - $line-height-computed), 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             $text-color !default;
