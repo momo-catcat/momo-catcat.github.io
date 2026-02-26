@@ -14,7 +14,13 @@
       "Bash(git add _pages/resources.md)",
       "Bash(git push)",
       "Bash(git rm /Users/hexuchen/Documents/science/CV_website/website/momo-catcat.github.io/CNAME)",
-      "Bash(git add _pages/resources.md _config.yml)"
+      "Bash(git add _pages/resources.md _config.yml)",
+      "Bash(git add css/resources.css)",
+      "Bash(gh api repos/momo-catcat/group-resources/contents/uploads)",
+      "Bash(export PATH=\"$PATH:/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin\")",
+      "Bash(curl -s -H \"Accept: application/vnd.github.v3+json\" \"https://api.github.com/repos/momo-catcat/group-resources/contents/uploads\")",
+      "Bash(git add css/main.scss)",
+      "Bash(git add _data/news.yml)"
     ]
   }
 }
