@@ -3,8 +3,8 @@
   description: Atmospheric aerosols influence climate through their interactions with radiation and clouds, yet large uncertainties remain in their simulation by global models. This study evaluates the United Kingdom Earth System Model version 1.1 (UKESM1.1) using global-scale aircraft observations from the. Atmospheric Tomography (ATom) mission, focusing on aerosol lifecycle processes in the remote marine atmosphere. We assess model performance in simulating aerosol precursor vapours, number size distributions, chemical composition, and environmental conditions. Several process improvements are tested, including sulfuric acid–ammonia nucleation, ammonium nitrate scheme, methanesulfonic acid condensation, and low-temperature isoprene-derived secondary organic aerosol formation. 
   authors: __X.-C. He__, N.L. Abraham\*, H. Ding, ..., J. Weber, A.T. Archibald\*, H. Gordon 
   link:
-    url: https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3700/ 
-    display: Atmospheric Chemistry and Physics Discussions (2025)
+    url: https://acp.copernicus.org/articles/26/3805/2026/
+    display: Atmospheric Chemistry and Physics 26, 3805–3851 (2026)
   highlight: 1
   news1:
 
