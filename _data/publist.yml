@@ -1,3 +1,13 @@
+- title: "Role of methanesulfonic acid in atmospheric particle nucleation and growth"
+  image: MSA_paper_global_observation.jpg
+  description: Dimethylsulfide from marine phytoplankton is a major source of atmospheric sulfur. Its oxidation produces both sulfuric acid (SA) and methanesulfonic acid (MSA), with MSA dominating at low temperatures, yet the role of MSA in new particle formation has remained unclear. In CERN CLOUD chamber experiments under atmospheric conditions, we show that MSA nucleates with ammonia below −10 °C at rates comparable to SA–NH3, and that MSA and SA nucleate synergistically to form multi-acid clusters. Even at ultra-low NH3 levels, MSA drives particle growth at or near the kinetic limit below 9 °C above 40% RH. Because MSA and SA coexist at similar concentrations in cool marine regions, nucleation rates may be enhanced up to tenfold and growth rates up to twofold compared with SA–NH3 alone. Global model simulations indicate that MSA can enhance cloud condensation nuclei concentrations, particularly in polar regions, identifying MSA as an important but previously unaccounted-for driver of biogenic particle formation in present-day and pre-industrial pristine marine atmospheres.
+  authors: R. Baalbaki<sup>+</sup> , J. Shen<sup>+</sup> , M. Simon, H. Klebach, S. Ruhl, ..., J. Kirkby, K. Lehtipalo\*, __X.-C. He__\*
+  link:
+    url: https://www.nature.com/articles/s41586-026-10810-2
+    display: Nature (2026)
+  highlight: 1
+  news1:
+
 - title: "Evaluation of UKESM aerosol size and composition using ATom measurements indicates missing marine aerosol formation mechanisms"
   image: UKESM11_global_pic.png 
   description: Atmospheric aerosols influence climate through their interactions with radiation and clouds, yet large uncertainties remain in their simulation by global models. This study evaluates the United Kingdom Earth System Model version 1.1 (UKESM1.1) using global-scale aircraft observations from the. Atmospheric Tomography (ATom) mission, focusing on aerosol lifecycle processes in the remote marine atmosphere. We assess model performance in simulating aerosol precursor vapours, number size distributions, chemical composition, and environmental conditions. Several process improvements are tested, including sulfuric acid–ammonia nucleation, ammonium nitrate scheme, methanesulfonic acid condensation, and low-temperature isoprene-derived secondary organic aerosol formation. 
@@ -11,7 +21,7 @@
 - title: "New particle formation from isoprene under upper-tropospheric conditions"
   image: Isoprene_NPF.png 
   description: Aircraft observations reveal widespread new particle formation in the tropical upper troposphere over the Amazon and oceans, linked to unknown vapors. CERN CLOUD experiments show that hydroxyl radicals reacting with isoprene at −30 °C to −50 °C can initiate particle formation, driven by isoprene-oxygenated organic molecules (IP-OOM). Small amounts of sulfuric or iodine oxoacids enhance nucleation rates significantly, with rapid growth even in the presence of NOx from lightning. These findings suggest isoprene emissions from rainforests contribute to extensive new particle formation in the tropical upper troposphere, producing tens of thousands of particles per cubic centimeter.
-  authors: J. Shen<sup>+</sup>, D.M. Russel<sup>+</sup>, J. DeVivo, ..., J. Kirkby\*, J. Curtius\*, __X.-C. He__\* 
+  authors: J. Shen<sup>+</sup> D.M. Russel<sup>+</sup>, J. DeVivo, ..., J. Kirkby\*, J. Curtius\*, __X.-C. He__\* 
   link:
     url: https://www.nature.com/articles/s41586-024-08196-0
     display: Nature (2024)
