@@ -21,7 +21,9 @@
       "Bash(curl -s -H \"Accept: application/vnd.github.v3+json\" \"https://api.github.com/repos/momo-catcat/group-resources/contents/uploads\")",
       "Bash(git add css/main.scss)",
       "Bash(git add _data/news.yml)",
-      "Bash(bundle exec jekyll build --verbose 2>&1 | grep \"Deprecation Warning\" | sort -u | head -20)"
+      "Bash(bundle exec jekyll build --verbose 2>&1 | grep \"Deprecation Warning\" | sort -u | head -20)",
+      "WebFetch(domain:www.nature.com)",
+      "WebFetch(domain:idp.nature.com)"
     ]
   }
 }
