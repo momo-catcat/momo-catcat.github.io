@@ -20,4 +20,4 @@ permalink: /CV/
 <br>
 <br>
 
-<object data="/assets/pdfs/CV_XCH.pdf" width="1000" height="1000" type='application/pdf'/>
+<object data="/assets/cv/CV_XCH.pdf" width="1000" height="1000" type='application/pdf'/>
