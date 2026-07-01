@@ -50,7 +50,7 @@ permalink: /publications/
 {% endif %}
 
 ## List of highlights 
-**Equal contribution (<sup>+</sup>) and corresponding author (*)**
+**Equal contribution (<sup>+</sup>) and corresponding author (*). Names in bold denote current or former members of my research group or collaborators whom I have directly mentored.**
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />

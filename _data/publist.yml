@@ -1,7 +1,7 @@
 - title: "Role of methanesulfonic acid in atmospheric particle nucleation and growth"
   image: MSA_paper_global_observation.jpg
   description: Dimethylsulfide from marine phytoplankton is a major source of atmospheric sulfur. Its oxidation produces both sulfuric acid (SA) and methanesulfonic acid (MSA), with MSA dominating at low temperatures, yet the role of MSA in new particle formation has remained unclear. In CERN CLOUD chamber experiments under atmospheric conditions, we show that MSA nucleates with ammonia below −10 °C at rates comparable to SA–NH3, and that MSA and SA nucleate synergistically to form multi-acid clusters. Even at ultra-low NH3 levels, MSA drives particle growth at or near the kinetic limit below 9 °C above 40% RH. Because MSA and SA coexist at similar concentrations in cool marine regions, nucleation rates may be enhanced up to tenfold and growth rates up to twofold compared with SA–NH3 alone. Global model simulations indicate that MSA can enhance cloud condensation nuclei concentrations, particularly in polar regions, identifying MSA as an important but previously unaccounted-for driver of biogenic particle formation in present-day and pre-industrial pristine marine atmospheres.
-  authors: R. Baalbaki<sup>+</sup> , J. Shen<sup>+</sup> , M. Simon, H. Klebach, S. Ruhl, ..., J. Kirkby, K. Lehtipalo\*, __X.-C. He__\*
+  authors: __R. Baalbaki__<sup>+</sup> , __J. Shen__<sup>+</sup> , M. Simon, H. Klebach, S. Ruhl, ..., J. Kirkby, K. Lehtipalo\*, __X.-C. He__\*
   link:
     url: https://www.nature.com/articles/s41586-026-10810-2
     display: Nature (2026)
@@ -21,7 +21,7 @@
 - title: "New particle formation from isoprene under upper-tropospheric conditions"
   image: Isoprene_NPF.png 
   description: Aircraft observations reveal widespread new particle formation in the tropical upper troposphere over the Amazon and oceans, linked to unknown vapors. CERN CLOUD experiments show that hydroxyl radicals reacting with isoprene at −30 °C to −50 °C can initiate particle formation, driven by isoprene-oxygenated organic molecules (IP-OOM). Small amounts of sulfuric or iodine oxoacids enhance nucleation rates significantly, with rapid growth even in the presence of NOx from lightning. These findings suggest isoprene emissions from rainforests contribute to extensive new particle formation in the tropical upper troposphere, producing tens of thousands of particles per cubic centimeter.
-  authors: J. Shen<sup>+</sup> D.M. Russel<sup>+</sup>, J. DeVivo, ..., J. Kirkby\*, J. Curtius\*, __X.-C. He__\* 
+  authors: __J. Shen__<sup>+</sup> D.M. Russel<sup>+</sup>, J. DeVivo, ..., J. Kirkby\*, J. Curtius\*, __X.-C. He__\* 
   link:
     url: https://www.nature.com/articles/s41586-024-08196-0
     display: Nature (2024)
@@ -31,7 +31,7 @@
 - title: "Iodine oxoacids and their roles in sub-3 nm particle growth in polluted urban environments"
   image: Beijing_observation.png 
   description: New particle formation (NPF) significantly impacts ultrafine particle (UFP) concentrations, human health, and climate. While iodine oxoacids (HIOx) dominate NPF in pristine regions, their role in polluted urban areas is less understood. Long-term measurements in Beijing and Nanjing reveal that HIO3 enhances the survival probability of sub-3 nm particles by ~40% (median) and over 100% in some NPF events, making HIOx a key contributor to UFPs in polluted environments. Since HIO3 and H2SO4 contribute similarly to particle growth, their combined concentrations can estimate sub-3 nm particle growth from inorganic acids in urban atmospheres with significant HIOx presence.
-  authors: Y. Zhang<sup>+</sup>, Duzitian Li<sup>+</sup>, __X.-C. He__\*, W. Nie\*, ..., J. Jiang, A. Ding, M. Kulmala 
+  authors: __Y. Zhang__<sup>+</sup>, __Duzitian Li__<sup>+</sup>, __X.-C. He__\*, W. Nie\*, ..., J. Jiang, A. Ding, M. Kulmala 
   link:
     url: https://acp.copernicus.org/articles/24/1873/2024/ 
     display: Atmospheric Chemistry and Physics (2024)
@@ -41,7 +41,7 @@
 - title: "Temperature, humidity, and ionisation effect of iodine oxoacid nucleation"
   image: Birte_ion_effect.jpg
   description: Understanding atmospheric new particle formation is of paramount importance, since it is impacting the climate. Particle formation through iodine oxoacid nucleation, has rarely been incorporated into global simulations, despite observations at various coastal locations and increasing concentration of iodine, primarily driven by climate change. This study employs chamber measurements and a kinetic model to explore the influence of temperature, ionisation rate, and humidity on iodine oxoacid nucleation. Our findings indicate that ion-induced formation rates of iodine oxoacid are not significantly affected by temperature but the neutral formation rates increase with decreasing temperature. Furthermore, increases in ionisation rates decrease the ion induced nucleation rate under atmospherically relevant iodic acid concentrations and humidity has no significant effect on nucleation. 
-  authors: B. Rorup, __X.-C. He__\*, J. Shen, ..., R. Volkamer, D.R. Worsnop, K. Lehtipalo
+  authors: __B. Rorup__, __X.-C. He__\*, J. Shen, ..., R. Volkamer, D.R. Worsnop, K. Lehtipalo
   link:
     url: https://pubs.rsc.org/en/Content/ArticleLanding/2024/EA/D4EA00013G 
     display: Environmental Science Atmosphere (2024)
@@ -61,7 +61,7 @@
 - title: "Characterisation of gaseous iodine species detection using the multi-scheme chemical ionisation inlet 2 with bromide and nitrate chemical ionisation methods"
   image: MION2_inlet.png 
   description: The multi-scheme chemical ionisation inlet 1 (MION1) enables rapid switching between the measurement of atmospheric ions without chemical ionisation and neutral molecules using various atmospheric pressure chemical ionisation methods. In this study, we introduce the upgraded version, the multi-scheme chemical ionisation inlet 2 (MION2). The new design incorporates enhanced ion optics, resulting in increased reagent ion concentration, ensuring a robust operation, and enabling the use of multiple chemical ionisation methods with the same ionisation time.
-  authors: __X.-C. He__\*, J. Shen\*, S. Iyer, ..., J. Mikkila, M. Sipila, J. Kangasluoma 
+  authors: __X.-C. He__\*, __J. Shen__\*, S. Iyer, ..., J. Mikkila, M. Sipila, J. Kangasluoma 
   link:
     url: https://amt.copernicus.org/articles/16/4461/2023/ 
     display: Atmospheric Measurement Techniques (2023)
