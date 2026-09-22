@@ -1,3 +1,13 @@
+- title: "Impact of humidity on aerosol growth from methanesulfonic acid"
+  image: MSA_humidity_growth.png
+  description: Methanesulfonic acid (MSA), produced by the oxidation of dimethylsulfide, is a key aerosol precursor in the marine boundary layer and free troposphere, yet the influence of relative humidity (RH) on its condensation onto particles has remained uncertain. In CERN CLOUD chamber experiments under low ammonia conditions (<4 pptv), we find that RH critically regulates the participation of MSA in the initial growth of newly formed particles. Between +10 °C and −10 °C, MSA drives rapid particle growth at high RH (>50%), whereas its contribution at low RH (<16%) is negligible. Aerosol process models such as MABNAG and the Extended Aerosol Inorganic Model (E-AIM) fail to reproduce these observations, underestimating the temperatures and humidities at which MSA-driven growth occurs. Capturing this RH dependence will be essential for accurately representing the role of MSA in marine aerosols in global models, particularly in cold, low-NH3 environments such as polar regions and the free troposphere.
+  authors: __W. Yu__, __R. Baalbaki__, __J. Shen__, J. DeVivo, L. Caudillo-Plath, ..., T. Yli-Juuti, I. Riipinen, __X.-C. He__\*, K. Lehtipalo
+  link:
+    url: https://pubs.rsc.org/en/Content/ArticleLanding/2026/EA/D5EA00123D
+    display: Environmental Science, Atmospheres 6, 1356–1367 (2026)
+  highlight: 1
+  news1:
+
 - title: "Role of methanesulfonic acid in atmospheric particle nucleation and growth"
   image: MSA_paper_global_observation.jpg
   description: Dimethylsulfide from marine phytoplankton is a major source of atmospheric sulfur. Its oxidation produces both sulfuric acid (SA) and methanesulfonic acid (MSA), with MSA dominating at low temperatures, yet the role of MSA in new particle formation has remained unclear. In CERN CLOUD chamber experiments under atmospheric conditions, we show that MSA nucleates with ammonia below −10 °C at rates comparable to SA–NH3, and that MSA and SA nucleate synergistically to form multi-acid clusters. Even at ultra-low NH3 levels, MSA drives particle growth at or near the kinetic limit below 9 °C above 40% RH. Because MSA and SA coexist at similar concentrations in cool marine regions, nucleation rates may be enhanced up to tenfold and growth rates up to twofold compared with SA–NH3 alone. Global model simulations indicate that MSA can enhance cloud condensation nuclei concentrations, particularly in polar regions, identifying MSA as an important but previously unaccounted-for driver of biogenic particle formation in present-day and pre-industrial pristine marine atmospheres.

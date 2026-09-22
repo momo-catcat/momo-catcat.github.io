@@ -23,7 +23,19 @@
       "Bash(git add _data/news.yml)",
       "Bash(bundle exec jekyll build --verbose 2>&1 | grep \"Deprecation Warning\" | sort -u | head -20)",
       "WebFetch(domain:www.nature.com)",
-      "WebFetch(domain:idp.nature.com)"
+      "WebFetch(domain:idp.nature.com)",
+      "Read(//Users/hexuchen/Downloads/**)",
+      "WebFetch(domain:pubs.rsc.org)",
+      "WebFetch(domain:api.crossref.org)",
+      "WebFetch(domain:api.openalex.org)",
+      "WebFetch(domain:api.semanticscholar.org)",
+      "Bash(ruby *)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(osascript -e 'tell application \"Finder\" to duplicate \\(POSIX file \"/Users/hexuchen/Downloads/d6ea90033j-ga.png\" as alias\\) to \\(POSIX file \"/Users/hexuchen/Documents/science/CV_website/website/momo-catcat.github.io/images/pubpic\" as alias\\) with replacing')",
+      "Bash(curl -s --max-time 0.05 \"http://127.0.0.1:4321/publications/\" -o /dev/null)",
+      "Bash(nc -w 0 127.0.0.1 4321)",
+      "Read(//private/tmp/**)",
+      "Bash(pkill -f 'jekyll serve --port 4321')"
     ]
   }
 }
