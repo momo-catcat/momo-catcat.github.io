@@ -35,7 +35,8 @@
       "Bash(curl -s --max-time 0.05 \"http://127.0.0.1:4321/publications/\" -o /dev/null)",
       "Bash(nc -w 0 127.0.0.1 4321)",
       "Read(//private/tmp/**)",
-      "Bash(pkill -f 'jekyll serve --port 4321')"
+      "Bash(pkill -f 'jekyll serve --port 4321')",
+      "Read(//Users/hexuchen/Documents/**)"
     ]
   }
 }
