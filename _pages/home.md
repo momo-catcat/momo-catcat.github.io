@@ -54,9 +54,10 @@ permalink: /
 
 ##### You can find me on: [ResearchGate](https://www.researchgate.net/profile/Xu-Cheng-He), [Google Scholar](https://scholar.google.com/citations?user=KrbWsdUAAAAJ&hl=en), [WebofScience](https://www.webofscience.com/wos/author/record/3773694)
 
-##### My research is funded by Jenny and Antti Wihuri Foundation and Research Council of Finland .
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/JennyAnttiWihuri.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/AcademyOfFinland.jpg" style="width: 180px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Spark.png" style="width: 180px">
-</figure>
+##### My research is funded by the European Research Council (ERC Starting Grant), Research Council of Finland, and Jenny and Antti Wihuri Foundation.
+<div class="funding-logos" markdown="0">
+  <div class="logo-cell"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ERC.png" alt="European Research Council" style="width: 95px"></div>
+  <div class="logo-cell"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ResearchCouncilFinland.svg" alt="Research Council of Finland" style="width: 250px"></div>
+  <div class="logo-cell"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/JennyAnttiWihuri.png" alt="Jenny and Antti Wihuri Foundation" style="width: 100px"></div>
+  <div class="logo-cell"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Spark.png" alt="Spark" style="width: 185px"></div>
+</div>

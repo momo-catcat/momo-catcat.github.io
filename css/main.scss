@@ -96,3 +96,38 @@ firstp {
     margin-right: 30px;
 }
 
+
+
+/* Funding logos (home page) */
+
+.funding-logos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 18px 0 32px;
+}
+
+.funding-logos .logo-cell {
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+}
+
+/* Cancel the global img margins/rounding for logos */
+.funding-logos .logo-cell img {
+    margin: 0;
+    border-radius: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    .funding-logos .logo-cell {
+        flex: 0 0 100%;
+        max-width: 100%;
+        min-height: 100px;
+    }
+}
