@@ -46,15 +46,13 @@ permalink: /
 </div>
 
 
-##### Hi, I'm Xu-Cheng He, 何旭成, a researcher studying atmospheric aerosols, clouds and their climatic effects. I'm currently an Academy Research Fellow and group leader at [Institute for Atmospheric and Earth System Research (INAR)](https://www.helsinki.fi/en/inar) at [University of Helsinki](https://www.helsinki.fi/en). I also serve as co-PI for the CLOUD project at CERN.
+##### Hi, I am Xu-Cheng He, 何旭成, an Academy Research Fellow and leader of the Aerosol-Climate Interactions group at [Institute for Atmospheric and Earth System Research (INAR)](https://www.helsinki.fi/en/inar) at [University of Helsinki](https://www.helsinki.fi/en). I also serve as a Principal Investigater for the [CLOUD project](https://home.cern/science/experiments/cloud/) at CERN.
 
-##### My research combines state-of-the-art mass spectrometric methods, quantum chemical calculations and Earth system modelling to investigate and interpret atmospheric aerosol formation both from ambient observations and chamber simulations. 
+##### My research combines state-of-the-art mass spectrometric methods, quantum chemical calculations, kinetic modelling, and Earth system modelling to investigate and interpret atmospheric chemistry and cloud seed formation, and the associated climate impacts. 
 
-##### I'm currently working on a new project that uses the [UK Earth System Model](https://www.metoffice.gov.uk/research/approach/modelling-systems/unified-model) to study the effect of particle formation in the climate system with a focus on introducing new mechanisms such as [iodine oxoacid particle formation](https://science.sciencemag.org/content/371/6529/589) and [isoprene new particle formation](https://www.nature.com/articles/s41586-024-08196-0) which have recently been discovered.
+##### You can find my research on: [ResearchGate](https://www.researchgate.net/profile/Xu-Cheng-He), [Google Scholar](https://scholar.google.com/citations?user=KrbWsdUAAAAJ&hl=en), [WebofScience](https://www.webofscience.com/wos/author/record/3773694)
 
-##### You can find me on: [ResearchGate](https://www.researchgate.net/profile/Xu-Cheng-He), [Google Scholar](https://scholar.google.com/citations?user=KrbWsdUAAAAJ&hl=en), [WebofScience](https://www.webofscience.com/wos/author/record/3773694)
-
-##### My research is funded by the European Research Council (ERC Starting Grant), Research Council of Finland, and Jenny and Antti Wihuri Foundation.
+##### My research is funded by the European Research Council (ERC Starting Grant), Research Council of Finland, Jenny and Antti Wihuri Foundation, and Spark Climate Solutions.
 <div class="funding-logos" markdown="0">
   <div class="logo-cell"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ERC.png" alt="European Research Council" style="width: 95px"></div>
   <div class="logo-cell"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ResearchCouncilFinland.svg" alt="Research Council of Finland" style="width: 250px"></div>

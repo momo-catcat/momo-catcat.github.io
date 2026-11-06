@@ -9,13 +9,12 @@ permalink: /CV/
 ### EDUCATION 
 
 #### 2018 - 2021, PhD in Atmospheric Sciences (Distinction), University of Helsinki
-#####  - Advisors: Prof. Markku Kulmala, Prof. Jasper Kirkby
 
 #### 2015 - 2017, MSc in Atmospheric Sciences, University of Helsinki 
 
 #### 2011 - 2015, BSc in Atmospheric Sciences, Yunnan University
 
-##### Find me on: [ResearchGate](https://www.researchgate.net/profile/Xu-Cheng-He), [Google Scholar](https://scholar.google.com/citations?user=KrbWsdUAAAAJ&hl=en), [WebofScience](https://www.webofscience.com/wos/author/record/3773694)
+##### Find my research on: [ResearchGate](https://www.researchgate.net/profile/Xu-Cheng-He), [Google Scholar](https://scholar.google.com/citations?user=KrbWsdUAAAAJ&hl=en), [WebofScience](https://www.webofscience.com/wos/author/record/3773694)
 
 <br>
 <br>
