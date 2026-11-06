@@ -24,6 +24,7 @@ exclude:
   - vendor/
   - api/
   - RESOURCES_SETUP.md
+  - downloads/
 
 sass:
   sass_dir: _sass
